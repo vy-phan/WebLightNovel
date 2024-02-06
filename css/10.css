@@ -119,9 +119,9 @@ footer {
 	#text_container {
 		flex-wrap: wrap;
 	}
-	.top_item{
+/* 	.top_item{
 		flex: 50%;
-	}
+	} */
 }
 
 @media(max-width: 400px) {
@@ -135,8 +135,8 @@ footer {
 		flex-wrap: wrap;
 	}
 	}
-	.top_item{
+/* 	.top_item{
 		flex: 50%;
-	}
+	} */
 }
 
