@@ -1,0 +1,142 @@
+/**{
+	padding : 0;
+	margin : 0;
+}*/
+
+/*chỉnh chữ kích thước và màu sắc*/
+h1{
+	color : #6495ED; 
+}
+
+h2{
+	color : pink;
+}
+
+h5{
+	text-align: center;
+
+/*chỉnh thanh menu */
+}
+#menu_text {
+	background-color :#CCCCFF;
+	text-align : center;
+	padding : 80px;
+	margin: 0px ;
+}
+
+
+/*nút bấm cho thanh menu */
+nav {
+	background-color : #ADFAFF ;
+/*	padding: 14px 20px ;*/
+	overflow: hidden;
+}
+
+nav a{
+	color : #17202A ;
+	padding: 25px 30px ;
+	display: block;
+	text-align : center;
+	text-decoration : none;
+	float: left;
+	overflow: hidden;
+}
+
+nav a:hover {
+	background-color : #6495ED;
+	color : #CCCCFF; 
+}
+
+/*chỉnh nút bấm menu hiển thị trái và phải */
+.menu_left {
+	float: left;
+	
+}
+.menu_right {
+	float: right;
+
+}
+
+
+/*chỉnh giao diện chia layout ra */
+#left_side {
+	flex: 30%;
+	padding: 20px;
+}
+#right_side {
+	flex: 70%;
+	padding: 20px;
+
+}
+#text_container {
+	display: flex;
+	flex-wrap: nonwrap;
+}
+
+
+
+footer > a{
+	color: white;
+}
+footer {
+	text-align : right;
+	padding: 30px;
+	background-color: #BEDDFF;
+}
+
+/*chỉnh các item chứa các element trong 1 container*/
+#top3_container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.top_item{
+	flex: 33%;
+	text-align: center;
+}
+
+.top_tittle{
+	font-weight: 900;
+	padding: 10px;
+}
+.top_content{
+	margin: 10px;
+}
+
+.top_image{
+	width: 90%;
+}
+
+
+/*chỉnh phù hợp với điẹn thoại và ipad màn hình */
+@media(max-width: 800px) {
+	#left_side {
+		flex: 100%;
+	}
+	#right_side {
+		flex: 100%;
+	}
+	#text_container {
+		flex-wrap: wrap;
+	}
+	.top_item{
+		flex: 50%;
+	}
+}
+
+@media(max-width: 400px) {
+	#left_side {
+		flex: 100%;
+	}
+	#right_side {
+		flex: 100%;
+	}
+	#text_container {
+		flex-wrap: wrap;
+	}
+	}
+	.top_item{
+		flex: 50%;
+	}
+}
+
